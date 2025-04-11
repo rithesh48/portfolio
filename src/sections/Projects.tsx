@@ -7,6 +7,8 @@ const Projects: React.FC = () => (
     <ul>
       <li>Travel Itinerary Generator – Personalized travel planning tool.</li>
       <li>Payroll Management System – For streamlined employee payments.</li>
+      <li>Deepfake Detective – A system to detect AI-generated synthetic media using image forensics and deep learning techniques.</li>
+      <li>Portfolio Website – A responsive personal portfolio built with React to showcase my work and skills.</li>
     </ul>
   </section>
 );

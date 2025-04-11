@@ -12,15 +12,24 @@
 
 import React from 'react';
 import './Contact.css';
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Contact: React.FC = () => (
   <section className="contact-section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:rithesh@example.com">rithesh@example.com</a></p>
-    <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
-    <p>Instagram: <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">@yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+    <ul>
+      <li>
+        <FaEnvelope /> Email: <a href="mailto:riteshdj889@gmail.com">riteshdj889@gmail.com</a>
+      </li>
+      <li>
+        <FaInstagram /> Instagram: <a href="https://instagram.com/ritesh_d_j" target="_blank" rel="noopener noreferrer">@ritesh_d_j</a>
+      </li>
+      <li>
+        <FaLinkedin /> LinkedIn: <a href="https://www.linkedin.com/in/ritesh-d-j-0a925824b/" target="_blank" rel="noopener noreferrer">ritesh-d-j</a>
+      </li>
+    </ul>
   </section>
 );
 
 export default Contact;
+
