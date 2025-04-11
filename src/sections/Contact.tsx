@@ -22,7 +22,7 @@ const Contact: React.FC = () => (
         <FaEnvelope /> Email: <a href="mailto:riteshdj889@gmail.com">riteshdj889@gmail.com</a>
       </li>
       <li>
-        <FaInstagram /> Instagram: <a href="https://instagram.com/ritesh_d_j" target="_blank" rel="noopener noreferrer">@instagram</a>
+        <FaInstagram /> Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">@instagram</a>
       </li>
       <li>
         <FaLinkedin /> LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">rithesh-d-j</a>
